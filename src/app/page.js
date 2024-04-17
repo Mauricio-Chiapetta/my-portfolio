@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+// AQUI
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -27,7 +27,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
       <div className={styles.center}>
         <Image
           className={styles.logo}
