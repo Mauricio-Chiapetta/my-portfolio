@@ -3,9 +3,11 @@ import About from '@/app/components/About';
 import Skills from '@/app/components/Skills';
 import Projects from '@/app/components/Projects';
 import Contact from '@/app/components/Contact';
+import Footer from '@/app/components/footer';
 
 
 import Head from 'next/head';
+import Navbar from './components/navbar';
 
 const Home = () => {
 	return (
@@ -17,11 +19,15 @@ const Home = () => {
 				<link rel="icon" href="/favicon.jpeg" />
 			</Head>
 			<div>
+				{/* mudei aqui */}
+				<Navbar/>
 				<Hero />
 				<About />
 				<Skills />
 				<Projects />
 				<Contact />
+				<Footer/>
+				
 			</div>
 		</>
 	);

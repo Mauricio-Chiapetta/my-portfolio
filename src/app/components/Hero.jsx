@@ -5,9 +5,9 @@ const Hero = () => {
         <div className="hero-container">
             <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
             <div className="hero-text">
-                <h1>Hey, I'm Joe 👋</h1>
+                <h1>Oi, sou o Mauricio 👋</h1>
                 <p>
-                    I'm a software developer based in Lagos, Nigeria. I specialize in building (and occasionally designing) exceptional websites, applications, and everything in between.
+                Sou desenvolvedor de software e moro em Santos, no Brasil. Sou especializado na criação (e, ocasionalmente, no design) de sites e aplicativos excepcionais e tudo mais.
                 </p>
                 <div className="social-icons">
                     <a
