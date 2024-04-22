@@ -1,4 +1,5 @@
 import Image from "next/image";
+// arrumar import da imagem
 
 const Hero = () => {
     return (

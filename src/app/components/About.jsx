@@ -1,4 +1,5 @@
 import Image from "next/image";
+// tem que arrumar o import para as imagens
 
 const About = () => {
     return (
