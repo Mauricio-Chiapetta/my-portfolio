@@ -1,9 +1,10 @@
+// aqui seria o import da imagem
 import Image from "next/image";
-// tem que arrumar o import para as imagens
+import foto from "@/app/images/Praia-sentado.jpeg"
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div id="About" className="about-container">
             <h2>Sobre mim:</h2>
             <div className="flex-about">
                 <div className="about-text">
@@ -14,8 +15,7 @@ const About = () => {
                     <p>Ao longo da minha carreira, trabalhei em uma ampla gama de projetos, desde sites estáticos simples até aplicativos complexos de nível empresarial. Tenho experiência em trabalhar com uma variedade de ferramentas e estruturas de desenvolvimento, incluindo React, Angular, Vue.js, Node.js e Laravel. Estou sempre ansioso para aprender e explorar novas tecnologias e busco constantemente oportunidades para aprimorar minhas habilidades e conhecimentos.</p>
                 </div>
                 <div className="about-img">
-                    {/* mudar imagem */}
-                    <Image src='/images/about.jpeg' className="profile-img" width={300} height={500} alt="Joe and animal relaxing and having fun" />
+                <Image src={foto} className="profile-img" width={300} height={500}/>
                 </div>
             </div>
         </div>

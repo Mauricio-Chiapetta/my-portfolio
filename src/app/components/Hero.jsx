@@ -1,10 +1,11 @@
 import Image from "next/image";
-// arrumar import da imagem
+import Perfil from "@/app/images/perfil-navbar.jpeg"
+
 
 const Hero = () => {
     return (
         <div className="hero-container">
-            <Image src='/images/profile.jpeg' className="profile-img" width={300} height={300} alt="Joe's personal headshot" />
+            <Image src= {Perfil} className="profile-img" width={300} height={300} alt="Mauricio's personal headshot" />
             <div className="hero-text">
                 <h1>Oi, sou o Mauricio 👋</h1>
                 <p>
@@ -16,6 +17,7 @@ const Hero = () => {
                         aria-label="Twitter"
                         target="_blank"
                         rel="noopener noreferrer"
+                        
                     >
                         <i className="fa-brands fa-twitter"></i>
                     </a>
