@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* mudei aqui o href */}
       <a href="#About" className="cta-btn">Resumo</a>
     </div>
-    <hr/>
+    <hr className="hr-line-navbar"/>
     {/* coloquei um <hr/> aqui! */}
   </>
   )
