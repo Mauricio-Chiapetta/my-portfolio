@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
+    <>
     <div className="nav-container">
 
       <div className="logo">
@@ -15,6 +16,9 @@ const Navbar = () => {
       {/* mudei aqui o href */}
       <a href="#About" className="cta-btn">Resumo</a>
     </div>
+    <hr/>
+    {/* coloquei um <hr/> aqui! */}
+  </>
   )
 }
 

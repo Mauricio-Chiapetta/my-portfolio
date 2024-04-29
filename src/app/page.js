@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Hero from '@/app/components/Hero';
 import About from '@/app/components/About';
 import Skills from '@/app/components/Skills';
@@ -7,7 +8,6 @@ import Footer from '@/app/components/footer';
 import Navbar from './components/navbar';
 
 
-import Head from 'next/head';
 
 const Home = () => {
 	return (
