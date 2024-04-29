@@ -1,3 +1,5 @@
+// mudar o title,description e githublink para os meus projetos.
+
 export const projectData = [
 	{
 		id: 1,

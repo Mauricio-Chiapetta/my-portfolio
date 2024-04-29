@@ -1,4 +1,5 @@
 // aqui seria o import da imagem
+// mudar o about text
 import Image from "next/image";
 import foto from "@/app/images/Praia-sentado.jpeg"
 

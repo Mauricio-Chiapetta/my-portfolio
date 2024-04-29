@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Perfil from "@/app/images/perfil-navbar.jpeg"
-
+// mudar os links das redes sociais
 
 const Hero = () => {
     return (

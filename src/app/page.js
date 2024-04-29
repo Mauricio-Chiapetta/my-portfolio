@@ -1,3 +1,5 @@
+// criar um button para mudar o idioma
+
 import Head from 'next/head';
 import Hero from '@/app/components/Hero';
 import About from '@/app/components/About';
