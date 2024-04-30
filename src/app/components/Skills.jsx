@@ -5,6 +5,7 @@ const Skills = () => {
             <div className="grid-skills">
                 <div className="skill-card html">
                     <i className="fa-brands fa-html5 html-icon"></i>
+                    
                     <p>HTML</p>
                 </div>
                 <div className="skill-card css">

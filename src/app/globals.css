@@ -112,6 +112,12 @@ hr {
 
 /* Hero */
 
+/* profile-img */
+.profile-img{
+ border:3px solid rgba(0, 0, 0, 0.445);
+ 
+}
+
 .hero-container {
   height: 90vh;
   display: flex;
@@ -127,6 +133,7 @@ hr {
   border-radius: 50%;
   margin: 0 auto;
   object-fit: cover;
+  
 }
 
 .hero-container .hero-text {
