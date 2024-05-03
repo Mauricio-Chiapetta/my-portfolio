@@ -21,7 +21,11 @@ body {
     padding: 0 2rem;
   }
 }
-
+@media screen and (max-width:400px){
+  .hr-line-navbar{
+    display: none;
+  }
+}
 a {
   text-decoration: none;
   color: #DADADB;
@@ -78,6 +82,9 @@ hr {
   hr {
     width: 100%;
   }
+  /* .hr-line-navbar{
+    display: none;
+  } */
 }
 
 .footer-container {
@@ -174,7 +181,7 @@ hr {
 }
 
 .hero-container .social-icons a:hover {
-  color: #DADADB;
+  color: #ebebeb;
 }
 
 /* About */
@@ -348,6 +355,7 @@ hr {
 .project-header .small-icons {
   display: flex;
   gap: 0 5px;
+  font-size: 30px;
 }
 
 .project-card .small-icons a {
