@@ -13,7 +13,7 @@ import {
         <h2>Skills</h2>
         <div className="grid-skills">
           <div className="skill-card html">
-            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon icon={faHtml5}  className="html-icon" />
             <p>HTML</p>
           </div>
           <div className="skill-card css">
