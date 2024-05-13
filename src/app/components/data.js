@@ -1,4 +1,4 @@
-// mudar o title,description e githublink para os meus projetos.
+// mudar o title,description e githublink para os meus projetos e colocar um link para poder abrir o projeto real
 
 export const projectData = [
 	{

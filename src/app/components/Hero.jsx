@@ -31,7 +31,7 @@ const Hero = () => {
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
-                        href="www.linkedin.com/in/mauricio-chiapetta-ba0b33251"
+                        href="https://www.linkedin.com/in/mauricio-chiapetta-ba0b33251/"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"

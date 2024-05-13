@@ -9,7 +9,16 @@ const Navbar = () => {
         </div>
         {/* mudei aqui o href */}
         <a href="#About" className="cta-btn">
-          Resumo
+          About
+        </a>
+        <a href="#Skills" className="cta-btn">
+          Skills
+        </a>
+        <a href="#Projects" className="cta-btn">
+          Projects
+        </a>
+        <a href="#Contact" className="cta-btn">
+          Contact
         </a>
       </div>
       <hr className="hr-line-navbar" />
