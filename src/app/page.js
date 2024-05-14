@@ -10,7 +10,6 @@ import Footer from '@/app/components/footer';
 import Navbar from './components/navbar';
 
 
-
 const Home = () => {
 	return (
 		<>
