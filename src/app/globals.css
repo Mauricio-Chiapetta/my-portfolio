@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -14,7 +14,7 @@ body {
   line-height: 1.5;
   background-color: #1d1e20;
   color: #dadadb;
-  width: 900px;
+  width: 90%;
   margin: 0 auto;
   padding: 0 0;
 }
@@ -44,10 +44,11 @@ li {
 /* Navbar */
 .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
-  background-color: #1d1e20;
+  width: 90%;
+
 }
 
 .nav-container .logo {
@@ -62,7 +63,6 @@ li {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   display: inline-block;
-
 }
 
 /* efeito da line embaixo do "link" */
@@ -79,7 +79,7 @@ li {
   width: 100%;
   transition: width 0.3s;
 }
-
+/*  */
 .hr-line-navbar {
   width: 100%;
 }
@@ -89,7 +89,7 @@ hr {
   border: none;
   background-color: #9b9c9d;
   height: 1px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -426,4 +426,3 @@ hr {
   margin-bottom: 1rem;
   text-align: center;
 }
-

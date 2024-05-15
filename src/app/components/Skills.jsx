@@ -11,7 +11,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 const Skills = () => {
   return (
     <div id="Skills" className="skills-container">
-      <h2>Skills</h2>
+      <h2>Skills:</h2>
       <div className="grid-skills">
         <div className="skill-card html">
           <i>

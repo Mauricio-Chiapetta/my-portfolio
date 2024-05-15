@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Projects = () => {
     return (
         <div id ="Projects" className="projects-container">
-            <h2>Projects</h2>
+            <h2>Projects:</h2>
             <div className="projects-grid">
                 {projectData && projectData.map((project) => (
                     <div className="project-card" key={project.id}>

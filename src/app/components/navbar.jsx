@@ -21,7 +21,7 @@ const Navbar = () => {
           Contact
         </a>
       </div>
-      <hr className="hr-line-navbar" />
+      {/* <hr className="hr-line-navbar" /> */}
       {/* coloquei um <hr/> aqui! */}
     </>
   );
