@@ -1,6 +1,7 @@
 import { projectData } from './data.js';
 import {
-    faGithub
+    faGithub,
+    faThreads
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -14,7 +15,11 @@ const Projects = () => {
                         <div className="project-header">
 
                             <div className="small-icons">
-                                <a href={project.gitHubLink}> <FontAwesomeIcon icon={faGithub} /></a>
+                                <a href={project.gitHubLink} target='blank'> <FontAwesomeIcon icon={faGithub} /></a>
+                                <a href={project.liveDemo} target='blank'><FontAwesomeIcon icon={faThreads}/></a>
+                                {/* icone ta errado */}
+                                {/* colocar imagem do projeto */}
+
 
                             </div>
                         </div>
