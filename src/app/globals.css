@@ -11,21 +11,22 @@ html {
 }
 
 /* animaçoes novas */
-@keyframes appear{
-  from{
+@keyframes appear {
+  from {
     opacity: 0;
     scale: 0;
   }
-  to{
+  to {
     opacity: 1;
     scale: 1;
   }
 }
-@keyframes about{
+@keyframes about {
   from {
     opacity: 0;
     transform: translateX(-100px);
-  }to{
+  }
+  to {
     opacity: 1;
     transform: translateX(0px);
   }
@@ -35,17 +36,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   /* background-color: #1d1e20; */
-  background-color: #171717;
+  /* background-color: #171717; */
+  background-color: #0e0e0e;
   color: #dadadb;
   width: 90%;
   margin: 0 auto;
-  padding: 0 0 ;
+  padding: 0 0;
 
   /* esconder a barra lateral */
-  &::-webkit-scrollbar{
+  &::-webkit-scrollbar {
     display: none;
   }
-  }
+}
 
 @media screen and (max-width: 768px) {
   body {
@@ -73,24 +75,21 @@ li {
 .nav-container {
   display: flex;
   align-items: center;
-  padding: 1rem ;
+  padding: 1rem;
   width: 100%;
   position: fixed;
   background-color: #1d1e20;
   box-shadow: 0px 5px 20px #18181a;
   z-index: 10;
   /* cobrir a tela */
-  top: 0; 
+  top: 0;
   left: 0;
-
-
 }
 
-.nav-container .flex-btns{
+.nav-container .flex-btns {
   display: flex;
   gap: 50px;
   margin-left: 700px;
-  
 }
 
 @media screen and (max-width: 768px) {
@@ -101,7 +100,6 @@ li {
 .nav-container .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  
 }
 
 .cta-btn {
@@ -121,7 +119,7 @@ li {
   height: 1px;
   /* background: #ffcc1a; */
   /* cores novas */
-  background:#772099;
+  background: #772099;
   transition: width 0.3s;
 }
 
@@ -159,8 +157,8 @@ hr {
   align-items: center;
   padding: 2rem 0;
   /* background-color: #1d1e20; */
-  background-color: #171717;
-
+  /* background-color: #171717; */
+  background-color: #0e0e0e;
 }
 
 .footer-container p {
@@ -199,8 +197,7 @@ hr {
   align-items: center;
   flex-direction: column;
   padding: 2rem 0;
-  margin-top:50px;
- 
+  margin-top: 50px;
 }
 
 .hero-container .profile-img {
@@ -222,39 +219,52 @@ hr {
     width: 100%;
   }
 }
+/* aqui */
+/* @media screen and (max-width:700px){
+  .efeito-digitando{
+    top: 10%;
+  }
+} */
 
 .hero-container .hero-text h2 {
   font-size: 2.2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-
-  
 }
 
 /* efeito de digitação */
-@keyframes digitando{
-  from{
-      width: 0;
+@keyframes digitando {
+  from {
+    width: 0;
   }
 }
 
-@keyframes blink{
-  40%{
-      border-color: rgba(255, 255, 255, 0.2);
+@keyframes blink {
+  40% {
+    border-color: rgba(255, 255, 255, 0.2);
   }
 }
-.efeito-digitando{
+.efeito-digitando {
   width: 330px;
-  animation: digitando 2s steps(25), blink .4s infinite alternate;
+  animation: digitando 2s steps(25), blink 0.4s infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 2px solid;
-  transform:translate(-50%,-50%);
-  top:60%;
-  left:50%;
-  position:absolute;
-  
-  
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  .efeito-digitando {
+    top: 60%; /* Ajuste este valor conforme necessário */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .efeito-digitando {
+    top: 52%; /* Ajuste este valor conforme necessário */
+  }
 }
 
 .hero-container .hero-text p {
@@ -262,7 +272,6 @@ hr {
   font-weight: 400;
   margin-bottom: 1rem;
   margin-top: 3rem;
-  
 }
 
 .hero-container .social-icons {
@@ -282,19 +291,15 @@ hr {
   color: #ebebeb;
 }
 
-
-
 /* About */
 .about-container {
   padding: 2rem 0;
-  
 }
 
 .about-container h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  
 }
 
 .about-container .flex-about {
@@ -321,12 +326,11 @@ hr {
 .about-container .flex-about .about-img {
   width: 50%;
   /* animation */
-  
 }
 
 .about-container .flex-about .about-img .profile-img {
   overflow: hidden;
-  width:100%;
+  width: 100%;
   height: 500px;
   object-fit: none;
   filter: grayscale(100%);
@@ -337,7 +341,6 @@ hr {
 
 .about-container .flex-about .about-img .profile-img:hover {
   filter: grayscale(0%);
- 
 }
 
 @media screen and (max-width: 768px) {
@@ -401,7 +404,6 @@ hr {
 
 .skills-container .grid-skills .next:hover {
   background-color: #747474;
-  
 }
 
 .skills-container .grid-skills .html:hover {
@@ -431,7 +433,6 @@ hr {
 /* Projects */
 .projects-container {
   padding: 2rem 0;
- 
 }
 
 .projects-container h2 {
@@ -450,11 +451,21 @@ hr {
   animation-range: entry 0 cover 40%; */
 }
 
-
-
 @media screen and (max-width: 768px) {
   .projects-grid {
-    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .project-image {
+    max-width: 100%;
+    max-height: 100%;
+    padding-right: 20px;
+    object-fit: cover;
   }
 }
 
@@ -464,9 +475,9 @@ hr {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0 cover 40%;
+  max-width: 100%; /* Adicionado */
+  width: 100%; /* Adicionado */
 }
-
-
 
 .project-card .project-header {
   display: flex;
@@ -482,12 +493,11 @@ hr {
 
 .project-image {
   margin: 10px;
-  filter:blur(2px) grayscale(100%);
+  filter: blur(2px) grayscale(100%);
   transition: all 0.3s ease-in-out;
 }
-.project-image:hover{
-  filter:blur(0) grayscale(0%);
-  
+.project-image:hover {
+  filter: blur(0) grayscale(0%);
 }
 
 .project-header .small-icons {
@@ -501,20 +511,21 @@ hr {
   cursor: pointer;
   transition: all 0.3s ease;
   /* color:#ffcc17; */
-  color:#772099
+  color: #772099;
 }
 
 .project-card .small-icons a:hover {
-  
-  color:#a42ed3 ;
+  color: #a42ed3;
 }
 
-.project-card ,.project h3 {
+.project-card,
+.project h3 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-.project-card ,.project p {
+.project-card,
+.project p {
   font-size: 16px;
   margin-bottom: 10px;
   color: #ffffff;

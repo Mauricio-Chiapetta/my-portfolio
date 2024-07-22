@@ -11,10 +11,10 @@ export const projectData = [
 		description:
 			'Calculadora simples feito em Html , Css , Javascript',
 		gitHubLink: 'https://github.com/Mauricio-Chiapetta/calculadora-js',
-		liveDemo:'https://calculadora-js-lac.vercel.app/',
-		imagem:calculadora
-		
-		
+		liveDemo: 'https://calculadora-js-lac.vercel.app/',
+		imagem: calculadora
+
+
 	},
 	{
 		id: 2,
@@ -22,8 +22,9 @@ export const projectData = [
 		description:
 			'Jogo da velha com interface simples com o objetivo de estudo usando html,css e Javascript.',
 		gitHubLink: 'https://github.com/Mauricio-Chiapetta/tictactoe-js',
-		liveDemo:'https://tictactoe-js-uvqf-e2dlxv8gl-mauriciochiapettas-projects.vercel.app/',
-		imagem:velha
+		liveDemo: 'https://tictactoe-js-uvqf-e2dlxv8gl-mauriciochiapettas-projects.vercel.app/',
+		imagem: velha
 	},
 	// colocar mais projetos e imagens
+
 ];
