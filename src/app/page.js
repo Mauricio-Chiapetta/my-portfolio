@@ -8,8 +8,6 @@ import Projects from '@/app/components/Projects';
 import Contact from '@/app/components/Contact';
 import Footer from '@/app/components/footer';
 import Navbar from './components/navbar';
-
-
 const Home = () => {
 	return (
 		<>
@@ -17,7 +15,7 @@ const Home = () => {
 				<title>Mauricio's Portfolio</title>
 				<meta name="description" content="Mauricio's Portfolio" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<link rel="icon" href="portfolio.ico" />
+				<link rel="icon" href="favicon.ico" />
 
 			</Head>
 
