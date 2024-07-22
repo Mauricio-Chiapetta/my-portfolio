@@ -275,9 +275,7 @@ hr {
 .about-container .flex-about .about-img {
   width: 50%;
   /* animation */
-  animation: appear linear;
-  animation-timeline: view();
-  animation-range: entry 0 cover 40%;
+  
 }
 
 .about-container .flex-about .about-img .profile-img {
@@ -401,9 +399,9 @@ hr {
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
   /* animation */
-  animation: appear linear;
+  /* animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 40%;
+  animation-range: entry 0 cover 40%; */
 }
 
 
@@ -417,6 +415,9 @@ hr {
 .project-card {
   padding: 20px;
   border: 1px solid #9b9c9d;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
 }
 
 
