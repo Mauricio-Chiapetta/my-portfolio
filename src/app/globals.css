@@ -1,3 +1,5 @@
+/* modularizar o arquivo */
+/* colocar variaveis nas cores (--root)*/
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +34,8 @@ body {
   font-family: sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #1d1e20;
+  /* background-color: #1d1e20; */
+  background-color: #171717;
   color: #dadadb;
   width: 90%;
   margin: 0 auto;
@@ -110,7 +113,9 @@ li {
   display: block;
   width: 0;
   height: 1px;
-  background: #ffcc1a;
+  /* background: #ffcc1a; */
+  /* cores novas */
+  background:#772099;
   transition: width 0.3s;
 }
 
@@ -147,7 +152,9 @@ hr {
   justify-content: space-around;
   align-items: center;
   padding: 2rem 0;
-  background-color: #1d1e20;
+  /* background-color: #1d1e20; */
+  background-color: #171717;
+
 }
 
 .footer-container p {
@@ -429,10 +436,10 @@ hr {
   margin-bottom: 20px;
 }
 
-.project-card .folder-icon {
+/* .project-card .folder-icon {
   font-size: 35px;
   color: #ffcc17;
-}
+} */
 
 .project-image {
   margin: 10px;
@@ -454,12 +461,13 @@ hr {
   margin-right: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
-  color:#ffcc17;
+  /* color:#ffcc17; */
+  color:#772099
 }
 
 .project-card .small-icons a:hover {
   
-  color:#ffcd176b  ;
+  color:#a42ed3 ;
 }
 
 .project-card ,.project h3 {
