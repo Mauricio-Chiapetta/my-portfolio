@@ -20,6 +20,7 @@ const Home = () => {
 				<link rel="icon" href="favicon.jpeg" />
 								
 			</Head>
+			
 			<div>
 				{/* mudei aqui */}
 				<Navbar/>

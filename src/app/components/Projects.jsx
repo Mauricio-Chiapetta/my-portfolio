@@ -4,6 +4,7 @@ import {
     faThreads
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 const Projects = () => {
     return (
@@ -19,12 +20,15 @@ const Projects = () => {
                                 <a href={project.liveDemo} target='blank'><FontAwesomeIcon icon={faThreads}/></a>
                                 {/* icone ta errado */}
                                 {/* colocar imagem do projeto */}
-
+                                
 
                             </div>
+                           
                         </div>
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
+                        {/* arrumar imagens */}
+                        <Image src={project.imagem} className="project-image" width={500} height={300} />
                     </div>
                 ))
                 }
