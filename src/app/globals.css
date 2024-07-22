@@ -433,6 +433,16 @@ hr {
   color: #ffcc17;
 }
 
+.project-image {
+  margin: 10px;
+  filter:blur(2px) grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+.project-image:hover{
+  filter:blur(0) grayscale(0%);
+  
+}
+
 .project-header .small-icons {
   display: flex;
   gap: 0 5px;
