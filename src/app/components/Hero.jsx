@@ -15,7 +15,7 @@ const Hero = () => {
                 alt="Mauricio's personal headshot"
             />
             <div className="hero-text">
-                <h1>Oi, sou o Mauricio 👋</h1>
+                <h1 className="efeito-digitando">Oi, sou o Mauricio 👋</h1>
                 <p>
                     Sou desenvolvedor de software e moro em Santos, no Brasil. Sou
                     especializado na criação (e, ocasionalmente, no design) de sites e
