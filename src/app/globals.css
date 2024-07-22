@@ -263,7 +263,7 @@ hr {
 
 @media screen and (max-width: 480px) {
   .efeito-digitando {
-    top: 52%; /* Ajuste este valor conforme necessário */
+    top: 50%; /* Ajuste este valor conforme necessário */
   }
 }
 
