@@ -218,6 +218,9 @@ hr {
   .hero-container .hero-text {
     width: 100%;
   }
+  .profile-img {
+    display: none;
+  }
 }
 /* aqui */
 /* @media screen and (max-width:700px){
@@ -257,13 +260,13 @@ hr {
 }
 @media screen and (max-width: 768px) {
   .efeito-digitando {
-    top: 60%; /* Ajuste este valor conforme necessário */
+    top: 40%; /* Ajuste este valor conforme necessário */
   }
 }
 
 @media screen and (max-width: 480px) {
   .efeito-digitando {
-    top: 55%; /* Ajuste este valor conforme necessário */
+    top: 35%; /* Ajuste este valor conforme necessário */
   }
 }
 
