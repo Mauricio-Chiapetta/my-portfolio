@@ -88,8 +88,18 @@ li {
 
 .nav-container .flex-btns {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   margin-left: 700px;
+}
+@media screen and (max-width: 1024px) {
+  .nav-container .flex-btns {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav-container .flex-btns {
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -254,7 +264,7 @@ hr {
   overflow: hidden;
   border-right: 2px solid;
   transform: translate(-50%, -50%);
-  top: 60%;
+  top: 58%;
   left: 50%;
   position: absolute;
 }
@@ -269,6 +279,7 @@ hr {
     top: 35%; /* Ajuste este valor conforme necessário */
   }
 }
+
 
 .hero-container .hero-text p {
   font-size: 1.2rem;
@@ -475,9 +486,9 @@ hr {
 .project-card {
   padding: 20px;
   border: 1px solid #9b9c9d;
-  animation: appear linear;
+  /* animation: appear linear;
   animation-timeline: view();
-  animation-range: entry 0 cover 40%;
+  animation-range: entry 0 cover 40%; */
   max-width: 100%; /* Adicionado */
   width: 100%; /* Adicionado */
 }
@@ -496,12 +507,9 @@ hr {
 
 .project-image {
   margin: 10px;
-  filter: blur(2px) grayscale(100%);
-  transition: all 0.3s ease-in-out;
+ 
 }
-.project-image:hover {
-  filter: blur(0) grayscale(0%);
-}
+
 
 .project-header .small-icons {
   display: flex;
