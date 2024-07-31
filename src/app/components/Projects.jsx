@@ -8,6 +8,8 @@ import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+// adicionei uma lib de animação porque percebi que as animações no css não tava funcionando no iphone , já com a lib funciona perfeitamente
+
 const Projects = () => {
 
   useEffect(() => {
