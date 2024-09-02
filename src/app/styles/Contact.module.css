@@ -26,3 +26,30 @@
   margin-bottom: 1rem;
   text-align: center;
 }
+.cta-btns {
+  color: #dadadb;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+.cta-btns::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  /* background: #ffcc1a; */
+  /* cores novas */
+  background: #772099;
+  transition: width 0.3s;
+}
+
+.cta-btns:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+/*  */
+.hr-line-navbar {
+  width: 100%;
+}

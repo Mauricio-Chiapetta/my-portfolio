@@ -17,19 +17,19 @@ const Projects = () => {
   }, []);
 
   return (
-    <div id="Projects" className="projects-container">
+    <div id="Projects" className={styles["projects-container"]}>
       <h2>Projects:</h2>
-      <div className="projects-grid">
+      <div className={styles["projects-grid"]}>
         {projectData &&
           projectData.map((project) => (
             <div
               data-aos="flip-left"
               data-aos-duration="1000"
-              className="project-card"
+              className={styles["project-card"]}
               key={project.id}
             >
-              <div className="project-header">
-                <div className="small-icons">
+              <div className={styles["project-header"]}>
+                <div className={styles["small-icons"]}>
                   <a href={project.gitHubLink} target="blank">
                     {" "}
                     <FontAwesomeIcon icon={faGithub} />
@@ -44,7 +44,7 @@ const Projects = () => {
               {/* arrumar imagens */}
               <Image
                 src={project.imagem}
-                className="project-image"
+                className={styles["project-image"]}
                 width={500}
                 height={300}
               />

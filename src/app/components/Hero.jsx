@@ -7,22 +7,22 @@ import styles from "@/app/styles/Hero.module.css";
 
 const Hero = () => {
   return (
-    <div className="hero-container">
+    <div className={styles["hero-container"]}>
       <Image
         src={Perfil}
-        className="profile-img"
+        className={styles["profile-img"]}
         width={300}
         height={300}
         alt="Mauricio's personal headshot"
       />
-      <div className="hero-text">
-        <h1 className="efeito-digitando">Oi, sou o Mauricio 👋</h1>
+      <div className={styles["hero-text"]}>
+        <h1 className={styles["efeito-digitando"]}>Oi, sou o Mauricio 👋</h1>
         <p>
           Sou desenvolvedor de software e moro em Santos, no Brasil. Sou
           especializado na criação (e, ocasionalmente, no design) de sites e
           aplicativos excepcionais e tudo mais.
         </p>
-        <div className="social-icons">
+        <div className={styles["social-icons"]}>
           <a
             href="https://github.com/Mauricio-Chiapetta"
             aria-label="GitHub"

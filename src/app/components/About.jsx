@@ -5,10 +5,10 @@ import foto from "@/app/images/Praia-sentado.jpeg";
 import styles from "@/app/styles/About.module.css";
 const About = () => {
   return (
-    <div id="About" className="about-container">
+    <div id="About" className={styles["about-container"]}>
       <h2>Sobre mim:</h2>
-      <div className="flex-about">
-        <div className="about-text">
+      <div className={styles["flex-about"]}>
+        <div className={styles["about-text"]}>
           <p>
             {/* Como desenvolvedor, sempre fui apaixonado por criar soluções elegantes e eficazes para problemas complexos. Tenho uma base sólida em desenvolvimento de software, com foco em tecnologias da Web, como HTML, CSS e JavaScript. Gosto de trabalhar tanto no front-end quanto no back-end de aplicativos e estou sempre procurando maneiras de otimizar o desempenho, melhorar a experiência do usuário e garantir o mais alto nível de qualidade de código. */}
             Como aspirante a desenvolvedor, sou apaixonado por criar soluções
@@ -29,8 +29,13 @@ const About = () => {
             aprimorar minhas habilidades e conhecimentos.
           </p>
         </div>
-        <div className="about-img">
-          <Image src={foto} className="profile-img" width={300} height={500} />
+        <div className={styles["about-img"]}>
+          <Image
+            src={foto}
+            className={styles["profile-img"]}
+            width={300}
+            height={500}
+          />
         </div>
       </div>
     </div>

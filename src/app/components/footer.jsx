@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <>
       <hr />
-      <div className="footer-container">
+      <div className={styles["footer-container"]}>
         <p>© {new Date().getFullYear()} Mauricio's Portfolio</p>
-        <div className="social_icons">
+        <div className={styles["social_icons"]}>
           <a
             href="https://github.com/Mauricio-Chiapetta"
             aria-label="GitHub"

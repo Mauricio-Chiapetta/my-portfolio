@@ -11,30 +11,30 @@ import styles from "@/app/styles/Skills.module.css";
 
 const Skills = () => {
   return (
-    <div id="Skills" className="skills-container">
+    <div id="Skills" className={styles["skills-container"]}>
       <h2>Skills:</h2>
-      <div className="grid-skills">
-        <div className="skill-card html">
+      <div className={styles["grid-skills"]}>
+        <div className={`${styles["skill-card"]} ${styles["html"]}`}>
           <i>
-            <FontAwesomeIcon icon={faHtml5} className="html-icon" />
+            <FontAwesomeIcon icon={faHtml5} className={styles["html-icon"]} />
           </i>
           <p>HTML</p>
         </div>
-        <div className="skill-card css">
+        <div className={`${styles["skill-card"]} ${styles["css"]}`}>
           <i>
-            <FontAwesomeIcon icon={faCss3Alt} className="css-icon" />
+            <FontAwesomeIcon icon={faCss3Alt} className={styles["css-icon"]} />
           </i>
           <p>CSS</p>
         </div>
-        <div className="skill-card js">
+        <div className={`${styles["skill-card"]} ${styles["js"]}`}>
           <i>
-            <FontAwesomeIcon icon={faJsSquare} className="js-icon" />
+            <FontAwesomeIcon icon={faJsSquare} className={styles["js-icon"]} />
           </i>
           <p>JavaScript</p>
         </div>
-        <div className="skill-card react">
+        <div className={`${styles["skill-card"]} ${styles["react"]}`}>
           <i>
-            <FontAwesomeIcon icon={faReact} className="react-icon" />
+            <FontAwesomeIcon icon={faReact} className={styles["react-icon"]} />
           </i>
           <p>React</p>
         </div>
@@ -46,7 +46,7 @@ const Skills = () => {
         </div> */}
 
         {/* gambiarra/ não tem ícone do nextjs no fontawesome*/}
-        <div className="skill-card next">
+        <div className={`${styles["skill-card"]} ${styles["next"]}`}>
           <i>
             <svg
               xmlns="http://www.w3.org/2000/svg"
