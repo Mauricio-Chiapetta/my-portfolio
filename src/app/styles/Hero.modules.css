@@ -1,0 +1,108 @@
+/* profile-img */
+.profile-img {
+  border: 3px solid rgba(0, 0, 0, 0.445);
+}
+
+.hero-container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+  margin-top: 50px;
+}
+
+.hero-container .profile-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.hero-container .hero-text {
+  text-align: center;
+  margin: 1rem 0;
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container .hero-text {
+    width: 100%;
+  }
+  .profile-img {
+    display: none;
+  }
+}
+/* aqui */
+/* @media screen and (max-width:700px){
+    .efeito-digitando{
+      top: 10%;
+    }
+  } */
+
+.hero-container .hero-text h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* efeito de digitação */
+@keyframes digitando {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  40% {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+.efeito-digitando {
+  width: 330px;
+  animation: digitando 2s steps(25), blink 0.4s infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  transform: translate(-50%, -50%);
+  top: 58%;
+  left: 50%;
+  position: absolute;
+}
+@media screen and (max-width: 768px) {
+  .efeito-digitando {
+    top: 40%; /* Ajuste este valor conforme necessário */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .efeito-digitando {
+    top: 35%; /* Ajuste este valor conforme necessário */
+  }
+}
+
+.hero-container .hero-text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.hero-container .social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.hero-container .social-icons a {
+  color: #9b9c9d;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.hero-container .social-icons a:hover {
+  color: #ebebeb;
+}

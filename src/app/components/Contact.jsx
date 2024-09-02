@@ -1,3 +1,5 @@
+import styles from "@/app/styles/Contact.modules.css";
+
 const Contact = () => {
   return (
     <div id="Contact" className="contact-container">

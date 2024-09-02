@@ -7,6 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import styles from "@/app/styles/Skills.modules.css";
 
 const Skills = () => {
   return (

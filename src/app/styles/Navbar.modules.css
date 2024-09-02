@@ -1,0 +1,69 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  position: fixed;
+  background-color: #1d1e20;
+  box-shadow: 0px 5px 20px #18181a;
+  z-index: 10;
+  /* cobrir a tela */
+  top: 0;
+  left: 0;
+}
+
+.nav-container .flex-btns {
+  display: flex;
+  gap: 40px;
+  margin-left: 700px;
+}
+@media screen and (max-width: 1024px) {
+  .nav-container .flex-btns {
+    margin: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav-container .flex-btns {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    display: none;
+  }
+}
+.nav-container .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cta-btn {
+  color: #dadadb;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* efeito da line embaixo do "link" */
+.cta-btn::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  /* background: #ffcc1a; */
+  /* cores novas */
+  background: #772099;
+  transition: width 0.3s;
+}
+
+.cta-btn:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+}
+/*  */
+.hr-line-navbar {
+  width: 100%;
+}
