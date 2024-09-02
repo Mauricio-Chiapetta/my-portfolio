@@ -2,7 +2,7 @@
 // mudar o about text
 import Image from "next/image";
 import foto from "@/app/images/Praia-sentado.jpeg";
-import styles from "@/app/styles/About.modules.css";
+import styles from "@/app/styles/About.module.css";
 const About = () => {
   return (
     <div id="About" className="about-container">

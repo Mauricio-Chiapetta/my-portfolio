@@ -20,7 +20,6 @@ const Home = () => {
 			</Head>
 
 			<div>
-				{/* mudei aqui */}
 				<Navbar />
 				<Hero />
 				<About />
