@@ -3,12 +3,21 @@ import velha from '@/app/images/jogoDaVelha.png'
 import calculadora from '@/app/images/calculator.png'
 import todo from '@/app/images/todoApp.png'
 import landingPage from '@/app/images/TechConference.png'
-
+import darkSaas from '@/app/images/darkSaas.png'
 // arrumar imagens
 
 export const projectData = [
 	{
-		id: 1,
+		id: 2,
+		title: 'Saas Landing page',
+		description: 'UI design retirado do figma. Tecnologias usadas no projeto: Nextjs,Framer Motion e Tailwind css',
+		gitHubLink: 'https://github.com/Mauricio-Chiapetta/dark-sass-landing-page',
+		liveDemo: 'https://dark-sass-landing-page.vercel.app/',
+		imagem: darkSaas
+	},
+
+	{
+		id: 2,
 		title: 'Todo App',
 		description: 'Todo App utilizando React, Vite e Tailwindcss',
 		gitHubLink: 'https://github.com/Mauricio-Chiapetta/TodoApp-w-tailwindcss',
@@ -17,7 +26,7 @@ export const projectData = [
 
 	},
 	{
-		id: 2,
+		id: 3,
 		title: 'Landing Page',
 		description:
 			'Landing page criada para uma conferência Tech! O site possui um modo claro e um modo escuro, e é aplicado de acordo com a preferência do sistema do usuário , foi utilizado nesse projeto Reactjs e TailwindCss',
@@ -26,7 +35,7 @@ export const projectData = [
 		imagem: landingPage
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Calculadora',
 		description:
 			'Calculadora simples feito em Html , Css , Javascript',
@@ -37,7 +46,7 @@ export const projectData = [
 
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'tic tac toe',
 		description:
 			'Jogo da velha com interface simples com o objetivo de estudo usando html,css e Javascript.',
@@ -45,7 +54,4 @@ export const projectData = [
 		liveDemo: 'https://tictactoe-js-uvqf-e2dlxv8gl-mauriciochiapettas-projects.vercel.app/',
 		imagem: velha
 	}
-
-
-
 ];
