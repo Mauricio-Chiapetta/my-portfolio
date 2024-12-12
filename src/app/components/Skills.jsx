@@ -14,25 +14,41 @@ const Skills = () => {
     <div id="Skills" className={styles["skills-container"]}>
       <h2>Skills:</h2>
       <div className={styles["grid-skills"]}>
-        <div className={`${styles["skill-card"]} ${styles["html"]}`}>
+        <div
+          className={`${styles["skill-card"]} ${styles["html"]}`}
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <i>
             <FontAwesomeIcon icon={faHtml5} className={styles["html-icon"]} />
           </i>
           <p>HTML</p>
         </div>
-        <div className={`${styles["skill-card"]} ${styles["css"]}`}>
+        <div
+          className={`${styles["skill-card"]} ${styles["css"]}`}
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <i>
             <FontAwesomeIcon icon={faCss3Alt} className={styles["css-icon"]} />
           </i>
           <p>CSS</p>
         </div>
-        <div className={`${styles["skill-card"]} ${styles["js"]}`}>
+        <div
+          className={`${styles["skill-card"]} ${styles["js"]}`}
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <i>
             <FontAwesomeIcon icon={faJsSquare} className={styles["js-icon"]} />
           </i>
           <p>JavaScript</p>
         </div>
-        <div className={`${styles["skill-card"]} ${styles["react"]}`}>
+        <div
+          className={`${styles["skill-card"]} ${styles["react"]}`}
+          data-aos="fade-up"
+          data-aos-duration="3000"
+        >
           <i>
             <FontAwesomeIcon icon={faReact} className={styles["react-icon"]} />
           </i>
@@ -46,7 +62,8 @@ const Skills = () => {
         </div> */}
 
         {/* gambiarra/ não tem ícone do nextjs no fontawesome*/}
-        <div className={`${styles["skill-card"]} ${styles["next"]}`}>
+        <div className={`${styles["skill-card"]} ${styles["next"]}`} data-aos="fade-up"
+     data-aos-duration="3000">
           <i>
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -4,11 +4,12 @@ import calculadora from '@/app/images/calculator.png'
 import todo from '@/app/images/todoApp.png'
 import landingPage from '@/app/images/TechConference.png'
 import darkSaas from '@/app/images/darkSaas.png'
+import kanbanImage from '@/app/images/kanban.png'
 // arrumar imagens
 
 export const projectData = [
 	{
-		id: 2,
+		id: 1,
 		title: 'Saas Landing page',
 		description: 'UI design retirado do figma. Tecnologias usadas no projeto: Nextjs,Framer Motion e Tailwind css',
 		gitHubLink: 'https://github.com/Mauricio-Chiapetta/dark-sass-landing-page',
@@ -27,6 +28,15 @@ export const projectData = [
 	},
 	{
 		id: 3,
+		title: 'Kanban Project',
+		description:
+			'Kanban: Um sistema visual de gerenciamento de tarefas, utilizando Radix UI, JSON Server para simulação de API, Context API para estado global, TypeScript e React.js. O projeto destaca habilidades em consumo de APIs e organização de estado em aplicações modernas.',
+		gitHubLink: 'https://github.com/Mauricio-Chiapetta/kanban-project',
+		liveDemo: "",
+		imagem: kanbanImage
+	},
+	{
+		id: 4,
 		title: 'Landing Page',
 		description:
 			'Landing page criada para uma conferência Tech! O site possui um modo claro e um modo escuro, e é aplicado de acordo com a preferência do sistema do usuário , foi utilizado nesse projeto Reactjs e TailwindCss',
@@ -35,7 +45,7 @@ export const projectData = [
 		imagem: landingPage
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Calculadora',
 		description:
 			'Calculadora simples feito em Html , Css , Javascript',
@@ -46,7 +56,7 @@ export const projectData = [
 
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'tic tac toe',
 		description:
 			'Jogo da velha com interface simples com o objetivo de estudo usando html,css e Javascript.',

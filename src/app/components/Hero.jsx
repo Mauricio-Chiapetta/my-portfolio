@@ -1,9 +1,11 @@
+"use client";
 import Image from "next/image";
 import Perfil from "@/app/images/perfil-navbar.jpeg";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import styles from "@/app/styles/Hero.module.css";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -16,7 +18,24 @@ const Hero = () => {
         alt="Mauricio's personal headshot"
       />
       <div className={styles["hero-text"]}>
-        <h1 className={styles["efeito-digitando"]}>Oi, sou o Mauricio 👋</h1>
+        <h4>
+          <TypeAnimation
+            sequence={[
+              "Oi, sou o Mauricio 👋", // Types 'One'
+              1000, // Waits 1s
+              "Desenvolvedor", // Deletes 'One' and types 'Two'
+              1000, // Waits 2s
+              "Front-End", // Types 'Three' without deleting 'Two'
+            ]}
+            wrapper="span"
+            cursor={true}
+            repeat={Infinity}
+            style={{ fontSize: "2em", display: "inline-block" }}
+          />
+        </h4>
+        {/* feature type animation */}
+
+        {/* <h1 className={styles["efeito-digitando"]}>Oi, sou o Mauricio 👋</h1> */}
         <p>
           Sou desenvolvedor de software e moro em Santos, no Brasil. Sou
           especializado na criação (e, ocasionalmente, no design) de sites e

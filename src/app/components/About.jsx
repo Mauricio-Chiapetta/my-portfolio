@@ -3,12 +3,17 @@
 import Image from "next/image";
 import foto from "@/app/images/Praia-sentado.jpeg";
 import styles from "@/app/styles/About.module.css";
+import Aos from "aos";
 const About = () => {
   return (
     <div id="About" className={styles["about-container"]}>
       <h2>Sobre mim:</h2>
       <div className={styles["flex-about"]}>
-        <div className={styles["about-text"]}>
+        <div
+          className={styles["about-text"]}
+          data-aos="fade-right"
+          data-aos-duration="2000"
+        >
           <p>
             {/* Como desenvolvedor, sempre fui apaixonado por criar soluções elegantes e eficazes para problemas complexos. Tenho uma base sólida em desenvolvimento de software, com foco em tecnologias da Web, como HTML, CSS e JavaScript. Gosto de trabalhar tanto no front-end quanto no back-end de aplicativos e estou sempre procurando maneiras de otimizar o desempenho, melhorar a experiência do usuário e garantir o mais alto nível de qualidade de código. */}
             Como aspirante a desenvolvedor, sou apaixonado por criar soluções

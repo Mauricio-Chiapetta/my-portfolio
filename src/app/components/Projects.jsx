@@ -20,36 +20,37 @@ const Projects = () => {
     <div id="Projects" className={styles["projects-container"]}>
       <h2>Projects:</h2>
       <div className={styles["projects-grid"]}>
-        {projectData &&
-          projectData.map((project) => (
-            <div
-              data-aos="flip-left"
-              data-aos-duration="1000"
-              className={styles["project-card"]}
-              key={project.id}
-            >
-              <div className={styles["project-header"]}>
-                <div className={styles["small-icons"]}>
-                  <a href={project.gitHubLink} target="blank">
-                    {" "}
-                    <FontAwesomeIcon icon={faGithub} />
-                  </a>
+        {projectData.map((project) => (
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            className={styles["project-card"]}
+            key={project.id}
+          >
+            <div className={styles["project-header"]}>
+              <div className={styles["small-icons"]}>
+                <a href={project.gitHubLink} target="blank">
+                  {" "}
+                  <FontAwesomeIcon icon={faGithub} />
+                </a>
+                {project.liveDemo && (
                   <a href={project.liveDemo} target="blank">
                     <FontAwesomeIcon icon={faLink} />
                   </a>
-                </div>
+                )}
               </div>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              {/* arrumar imagens */}
-              <Image
-                src={project.imagem}
-                className={styles["project-image"]}
-                width={500}
-                height={300}
-              />
             </div>
-          ))}
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            {/* arrumar imagens */}
+            <Image
+              src={project.imagem}
+              className={styles["project-image"]}
+              width={500}
+              height={300}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );
