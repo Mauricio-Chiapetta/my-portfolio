@@ -5,6 +5,7 @@ import todo from '@/app/images/todoApp.png'
 import landingPage from '@/app/images/TechConference.png'
 import darkSaas from '@/app/images/darkSaas.png'
 import kanbanImage from '@/app/images/kanban.png'
+import gitHubViewerImage from '@/app/images/GithubViewer.png'
 // arrumar imagens
 
 export const projectData = [
@@ -16,9 +17,21 @@ export const projectData = [
 		liveDemo: 'https://dark-sass-landing-page.vercel.app/',
 		imagem: darkSaas
 	},
+	{
+		
+		id:2,
+		title:'GitHub Viewer',
+		description:' Uma aplicação para explorar repositórios do GitHub, destacando o consumo de APIs REST. Desenvolvida com React, Vite e estilizada com Tailwind CSS.',
+		gitHubLink:'https://github.com/Mauricio-Chiapetta/github_blog',
+		liveDemo:'https://github-blog-delta-six.vercel.app/',
+		imagem:gitHubViewerImage
+		
+		  
+	},
+
 
 	{
-		id: 2,
+		id: 3,
 		title: 'Todo App',
 		description: 'Todo App utilizando React, Vite e Tailwindcss',
 		gitHubLink: 'https://github.com/Mauricio-Chiapetta/TodoApp-w-tailwindcss',
@@ -27,7 +40,7 @@ export const projectData = [
 
 	},
 	{
-		id: 3,
+		id: 4,
 		title: 'Kanban Project',
 		description:
 			'Kanban: Um sistema visual de gerenciamento de tarefas, utilizando Radix UI, JSON Server para simulação de API, Context API para estado global, TypeScript e React.js. O projeto destaca habilidades em consumo de APIs e organização de estado em aplicações modernas.',
@@ -36,7 +49,7 @@ export const projectData = [
 		imagem: kanbanImage
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Landing Page',
 		description:
 			'Landing page criada para uma conferência Tech! O site possui um modo claro e um modo escuro, e é aplicado de acordo com a preferência do sistema do usuário , foi utilizado nesse projeto Reactjs e TailwindCss',
@@ -45,7 +58,7 @@ export const projectData = [
 		imagem: landingPage
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Calculadora',
 		description:
 			'Calculadora simples feito em Html , Css , Javascript',
@@ -56,7 +69,7 @@ export const projectData = [
 
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'tic tac toe',
 		description:
 			'Jogo da velha com interface simples com o objetivo de estudo usando html,css e Javascript.',
