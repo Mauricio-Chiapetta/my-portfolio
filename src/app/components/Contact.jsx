@@ -1,4 +1,5 @@
 import styles from "@/app/styles/Contact.module.css";
+import Link from "next/link";
 const Contact = () => {
   return (
     <div id="Contact" className={styles["contact-container"]}>
@@ -8,12 +9,12 @@ const Contact = () => {
         entrada está sempre aberta. Se quiser apenas dizer oi, farei o possível
         para entrar em contato com você! Abraços!
       </p>
-      <a
+      <Link
         href="mailto:mauriciochiapetta6@gmail.com"
         className={styles["cta-btns"]}
       >
         Meu email
-      </a>
+      </Link>
     </div>
   );
 };

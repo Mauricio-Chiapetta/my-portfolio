@@ -1,11 +1,12 @@
 "use client";
 import Image from "next/image";
 import Perfil from "@/app/images/perfil-navbar.jpeg";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub,faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import styles from "@/app/styles/Hero.module.css";
 import { TypeAnimation } from "react-type-animation";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -42,22 +43,35 @@ const Hero = () => {
           aplicativos excepcionais e tudo mais.
         </p>
         <div className={styles["social-icons"]}>
-          <a
+          <Link
             href="https://github.com/Mauricio-Chiapetta"
             aria-label="GitHub"
             target="_blank"
             rel="noopener noreferrer"
+            alt="github"
           >
             <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://www.linkedin.com/in/mauricio-chiapetta-ba0b33251/"
             aria-label="LinkedIn"
             target="_blank"
             rel="noopener noreferrer"
+            alt="Linkedin"
+
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
+          </Link>
+          <Link
+            href="https://wa.me/5513997851733"
+            aria-label="Whatsapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="Whatsapp"
+
+          >
+            <FontAwesomeIcon icon={faWhatsapp} />
+          </Link>
         </div>
       </div>
     </div>

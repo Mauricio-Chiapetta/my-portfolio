@@ -1,31 +1,12 @@
 .nav-container {
+  padding-top: 1.3rem;
   display: flex;
+  justify-content: space-between;
+}
+.flex-btns {
+  display: flex;
+  gap: 2rem;
   align-items: center;
-  padding: 1rem;
-  width: 100%;
-  position: fixed;
-  background-color: #1d1e20;
-  box-shadow: 0px 5px 20px #18181a;
-  z-index: 10;
-  /* cobrir a tela */
-  top: 0;
-  left: 0;
-}
-
-.nav-container .flex-btns {
-  display: flex;
-  gap: 40px;
-  margin-left: 700px;
-}
-@media screen and (max-width: 1024px) {
-  .nav-container .flex-btns {
-    margin: auto;
-  }
-}
-@media screen and (min-width: 1440px) {
-  .nav-container .flex-btns {
-    margin: auto;
-  }
 }
 
 @media screen and (max-width: 768px) {

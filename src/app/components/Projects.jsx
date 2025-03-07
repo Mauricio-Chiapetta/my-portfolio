@@ -8,6 +8,7 @@ import Image from "next/image";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import styles from "@/app/styles/Projects.module.css";
+import Link from "next/link.js";
 
 // adicionei uma lib de animação porque percebi que as animações no css não tava funcionando no iphone , já com a lib funciona perfeitamente
 
@@ -29,14 +30,14 @@ const Projects = () => {
           >
             <div className={styles["project-header"]}>
               <div className={styles["small-icons"]}>
-                <a href={project.gitHubLink} target="blank">
+                <Link href={project.gitHubLink} target="blank">
                   {" "}
                   <FontAwesomeIcon icon={faGithub} />
-                </a>
+                </Link>
                 {project.liveDemo && (
-                  <a href={project.liveDemo} target="blank">
+                  <Link href={project.liveDemo} target="blank">
                     <FontAwesomeIcon icon={faLink} />
-                  </a>
+                  </Link>
                 )}
               </div>
             </div>
