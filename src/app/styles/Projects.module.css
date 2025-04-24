@@ -34,8 +34,6 @@
     padding-right: 20px;
     object-fit: cover;
   }
-
- 
 }
 
 .project-card {
@@ -93,4 +91,34 @@
   font-size: 16px;
   margin-bottom: 10px;
   color: #ffffff;
+}
+
+.cta-btns {
+  color: rgb(128, 128, 129);
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.cta-btns:hover {
+  color: #dadadb;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-btns::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  /* background: #ffcc1a; */
+  /* cores novas */
+  background: #772099;
+  transition: width 0.5s;
+}
+
+.cta-btns:hover::after {
+  width: 100%;
+  transition: width 1s;
 }

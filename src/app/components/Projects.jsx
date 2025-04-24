@@ -2,7 +2,7 @@
 import { projectData } from "./data.js";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useEffect } from "react";
-import { faLink } from "@fortawesome/free-solid-svg-icons"; // pacote novo de icones adicionado
+import { faCircleArrowRight, faLink } from "@fortawesome/free-solid-svg-icons"; // pacote novo de icones adicionado
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Aos from "aos";
@@ -52,6 +52,23 @@ const Projects = () => {
             />
           </div>
         ))}
+        <div
+          style={{
+            alignItems: "center",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <Link
+            href={"https://github.com/Mauricio-Chiapetta?tab=repositories"}
+            target="blank"
+            className={styles["cta-btns"]}
+          >
+            <h3>
+              Ver mais <FontAwesomeIcon icon={faCircleArrowRight} />
+            </h3>
+          </Link>
+        </div>
       </div>
     </div>
   );
